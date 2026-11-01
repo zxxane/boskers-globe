@@ -1,3 +1,11 @@
+local fuck_this_script  = game:GetService("StarterGui")
+fuck_this_script:SetCore("SendNotification", {
+Title = "please join the discord server (if you can)",
+Text = "the discord invite link is copied to your clipboard.",
+Duration = 8
+})
+setclipboard("https://discord.gg/4cy7tpTHND")
+
 --[[
 ______________.___.__________  ___ ________________________ 
 \_   ___ \__  |   |\______   \/   |   \_   _____/\______   \
